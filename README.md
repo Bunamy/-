@@ -44,3 +44,6 @@ class pa(object):
             name=chaptername[i]
             self.writer(name,contents)
          print ("下载完成")
+ss=pa(ip='http://www.fenghuangxs.com/xiaoshuo/wVfa-KatyqU.html',ipplus='http://www.fenghuangxs.com'
+      ,flag='div',flag_class='cn',flag1='ul',flag1_class='chapterlist',cara='a',deleterow=6,path='E:/SS.txt')
+ss.run()
